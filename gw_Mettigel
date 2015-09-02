@@ -1,2 +1,2 @@
 key "4d31783ac0a82807151a38d432e4d230c8d6a66f60f39a11c0fc10bb595428fa";
-remote "mettigel.freifunk-mwu.de" port 10056;
+remote ipv6 "mettigel.freifunk-mwu.de" port 10056;
