@@ -13,10 +13,15 @@ script:
  - ./.check.py
 
 notifications:
+  email:
+    recipients:
+      - keys@freifunk-wiesbaden.de
+    on_success: always
+    on_failure: always
   irc:
     channels:
       - "irc.hackint.org#ffmwu"
-    on_success: change
+    on_success: always
     on_failure: always
     use_notice: true
     skip_join: true
